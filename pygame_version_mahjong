@@ -916,4 +916,5 @@ class MahjongGUI:
 # ══════════════════════════════════════════════
 
 if __name__ == '__main__':
+
     MahjongGUI().run()
