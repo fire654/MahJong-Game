@@ -485,3 +485,7 @@ class Mahjong:
 
             time.sleep(0.8)
             subprocess.call('cls', shell=True)
+
+if __name__ == "__main__":
+    game = Mahjong()
+    game.game_loop()
